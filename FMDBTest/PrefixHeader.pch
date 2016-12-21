@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  FMDBTest
+//
+//  Created by huxinguang on 2016/12/21.
+//  Copyright © 2016年 huxinguang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//添加混淆作用的头文件（这个文件名是脚本combconfuse.sh中定义的）
+#import "FMDB.h"
+#endif
