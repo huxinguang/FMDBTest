@@ -1,0 +1,3 @@
+[submodule "FMDBTest/FMDBTest/Submdl"]
+	path = FMDBTest/FMDBTest/Submdl
+	url = git@github.com:huxinguang/SubmdlForBubble.git
