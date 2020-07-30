@@ -32,6 +32,7 @@
     FMDatabase *db = [FMDatabase databaseWithPath:dbPath];
     if (![db open]) {
         NSLog(@"Could not open db.");
+        //#################git
         return ;
     }
     
