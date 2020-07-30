@@ -24,6 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //***********************************
     
     NSString *documentPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
     NSString *dbPath = [documentPath stringByAppendingPathComponent:@"comblive.db"];
@@ -34,7 +35,7 @@
         return ;
     }
     
-    NSLog(@"*********%@",dbPath);
+    NSLog(@"**********%@",dbPath);
 
     dataArr = [[NSMutableArray alloc]init];
     
