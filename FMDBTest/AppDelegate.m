@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
     //feature_A add A1111111111111
     //feature_A add A22222
+    //feature_b add B1111111111111
     
     return YES;
 }
