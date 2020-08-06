@@ -263,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -511,10 +512,12 @@
 			baseConfigurationReference = A631CF7F806086BAB89E5545 /* Pods-FMDBTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = D8LFX653A3;
 				GCC_PREFIX_HEADER = /Users/huxinguang/Desktop/FMDBTest/FMDBTest/PrefixHeader.pch;
 				INFOPLIST_FILE = FMDBTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.combplus.FMDBTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -525,10 +528,12 @@
 			baseConfigurationReference = 1BA412C5B643905846DB34B5 /* Pods-FMDBTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = D8LFX653A3;
 				GCC_PREFIX_HEADER = /Users/huxinguang/Desktop/FMDBTest/FMDBTest/PrefixHeader.pch;
 				INFOPLIST_FILE = FMDBTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.combplus.FMDBTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
